@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 1702274122}
   - component: {fileID: 1702274121}
   - component: {fileID: 1702274120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +305,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4582735281181523062, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.75
+      value: 128.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582735281181523062, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 463.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582735281181523062, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582735281181523063, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: groundMask.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 4582735281794085624, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.59
       objectReference: {fileID: 0}
     - target: {fileID: 6978896053449116532, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_LocalPosition.x
