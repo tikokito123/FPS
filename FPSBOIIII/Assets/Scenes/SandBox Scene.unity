@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: d18ded67410876943950a59f8fba6a35, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 298bf6024d8328a4c8cc712d03ce18bc, type: 2}
   m_LightingSettings: {fileID: 327226086}
 --- !u!196 &4
 NavMeshSettings:
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 1255306878}
   - component: {fileID: 1255306877}
   - component: {fileID: 1255306876}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,7 +368,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: b2a70d4ebe45ff64dac75936ea23366f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -397,7 +397,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767867188}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 4300006, guid: ba6a41dc489914734857bb5924eb70ad, type: 3}
 --- !u!4 &1767867191
 Transform:
   m_ObjectHideFlags: 0
@@ -406,8 +406,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1767867188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 500, y: 0, z: 500}
+  m_LocalPosition: {x: 0.00042239, y: 2, z: -0.00042239}
+  m_LocalScale: {x: 1884.1, y: 0, z: 1884.1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -421,15 +421,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4582735281181523062, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.25
+      value: 16.26
       objectReference: {fileID: 0}
     - target: {fileID: 4582735281181523062, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 144.5
       objectReference: {fileID: 0}
     - target: {fileID: 4582735281181523062, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 4582735281181523063, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: groundMask.m_Bits
@@ -482,6 +482,18 @@ PrefabInstance:
     - target: {fileID: 6978896053449116532, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003598, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 8.8e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003598, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_BoundingSphereOverride.y
+      value: 9.4e-44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003598, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 0.0000000079357605
       objectReference: {fileID: 0}
     - target: {fileID: 8304381287791477390, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: m_Name
