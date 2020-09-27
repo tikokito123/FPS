@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EZCameraShake;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -63,6 +64,7 @@ public class Weapon : MonoBehaviour
                 rayHit.collider.GetComponent<Health>().TakeDamage(damage);
             }
         }
+        CameraShaker.Instance.ShakeOnce(4f, 2f, 1f, 1f);
         bulletsLeft--;
         bulletsShot--;
         Invoke("ResetShot", timeBetweenShooting);
