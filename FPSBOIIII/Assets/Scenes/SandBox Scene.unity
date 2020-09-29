@@ -524,6 +524,46 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: 6.045e-42
       objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003598, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003598, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_Color.g
+      value: 0.77853197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003598, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1745283
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46.765373
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 26.999996
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.051323857
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.25845337
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.01375217
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.96456134
+      objectReference: {fileID: 0}
+    - target: {fileID: 7061226426876003599, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 353.908
+      objectReference: {fileID: 0}
     - target: {fileID: 7280607291612836867, guid: 5b0b358114a7971489d20e0d4f6f5afb, type: 3}
       propertyPath: RestPositionOffset.y
       value: 1.05
