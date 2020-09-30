@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 6802583267110824662}
   - component: {fileID: 8873808351679642142}
   - component: {fileID: 6802583267110824661}
-  - component: {fileID: 736402337708971432}
+  - component: {fileID: 8356778700095424720}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -244,7 +244,7 @@ MonoBehaviour:
   mouseSentivityX: 150
   mouseSentivityY: 75
   playerBody: {fileID: 6802583268432030194}
---- !u!114 &736402337708971432
+--- !u!114 &8356778700095424720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DefaultPosInfluence: {x: 0.15, y: 0.15, z: 0.15}
   DefaultRotInfluence: {x: 1, y: 1, z: 1}
-  RestPositionOffset: {x: 0, y: 1.05, z: 0}
+  RestPositionOffset: {x: 0, y: 0.15, z: 0}
   RestRotationOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &6802583268432030192
 GameObject:
