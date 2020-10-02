@@ -24,6 +24,8 @@ public class Weapon : MonoBehaviour
     public Camera fpsCam;
     public RaycastHit rayHit;
     public LayerMask whatIsEnemy;
+    public ParticleSystem mazzelflash;
+    public GameObject impactEffect;
     private void Awake()
     {
         bulletsLeft = magazineSize;
@@ -48,6 +50,7 @@ public class Weapon : MonoBehaviour
 
     private void Shoot()
     {
+        mazzelflash.Play();
         readyToShoot = false;
         //spread!
         float x = UnityEngine.Random.Range(-spread, spread);
@@ -64,7 +67,13 @@ public class Weapon : MonoBehaviour
                 rayHit.collider.GetComponent<Health>().TakeDamage(damage);
             }
         }
-        CameraShaker.Instance.ShakeOnce(4f, 2f, 1f, 1f);
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out rayHit, range))
+        {
+            GameObject infact =  Instantiate(impactEffect, rayHit.point, Quaternion.LookRotation(rayHit.normal));
+            Destroy(infact, 2f);
+        }
+
+        // CameraShaker.Instance.ShakeOnce(4f, 2f, 1f, 1f);
         bulletsLeft--;
         bulletsShot--;
         Invoke("ResetShot", timeBetweenShooting);
