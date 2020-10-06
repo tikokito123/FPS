@@ -203,4 +203,4 @@ MonoBehaviour:
   health: 100
   maxHealth: 100
   itemCount: 0
-  model: {fileID: 0}
+  model: {fileID: 6802583267063949023}

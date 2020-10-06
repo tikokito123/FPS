@@ -64,7 +64,6 @@ public class Weapon : MonoBehaviour
                 rayHit.collider.GetComponent<Health>().TakeDamage(damage);
             }
         }
-        CameraShaker.Instance.ShakeOnce(0.5f, 0.5f, 0.5f, 0.5f);
         bulletsLeft--;
         bulletsShot--;
         Invoke("ResetShot", timeBetweenShooting);
